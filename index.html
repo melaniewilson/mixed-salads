@@ -1,137 +1,47 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
+    <title>Grid Tutorial</title>
+    <link rel="stylesheet" href="css/main.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- CSS -->
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/main.css">
     <!-- fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-    <title>Mixed Salads</title>
   </head>
   <body>
-    <header class="container">
-      <nav class="navbar sticky-top">
-        <!-- start left side nav items -->
-        <div class="d-flex flex-row navbar-expand-md">
-          <ul class="navbar-nav">
-            <li class="nav-item active p-2" id="nav-items">
-              <a class="nav-link" href="livecoding.html">Blog<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item p-2" id="nav-items">
-              <a class="nav-link" href="about.html">About</a>
-            </li>
-          </ul>
-        </div>
-        <!-- end left side nav items -->
-        <!-- start center logo -->
-        <div class="navbar-expand-md  justify-content-center">
-            <a href="index.html"><img src="images/coco-logo.png" alt="melanie wilson logo" width="89px" height="55px"></a>
-        </div>
-        <!-- end center logo -->
-        <!-- start right nav-->
-        <div class="navbar navbar-expand-md">
-          <ul class="navbar-nav">
-            <li class="nav-item p-2" id="nav-items">
-              <a class="nav-link p-2" target="_blank" href="https://www.linkedin.com/in/melaniewe/">
-                <img class="smedia" src="images/linkedin-in.svg" alt="Melanie Wilson's LinkedIn">
-              </a>
-            </li>
-            <li class="nav-item p-2" id="nav-items">
-              <a class="nav-link" target="_blank" href="https://instagram.com/melanie_mmarie">
-                <img class="smedia" src="images/instagram.svg" alt="Melanie Wilson's Instagram">
-              </a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-      <!-- end nav -->
-    </header>
-
-    <!-- top main content -->
     <div class="container">
-      <div class="main d-flex row col-sm-12 col-md-12 col-lg-12">
-        <div class="circle mr-3">
-          <p class="hi">Hi</p>
-        </div>
-
-        <video class="main-video" autoplay loop>
-        <source src="images/segment.mp4" type="video/mp4">
-        <!-- <source src="movie.ogg" type="video/ogg"> -->
-        Your browser does not support the video tag.
-        </video>
-
-        <div class="intro-box ml-3 mr-2 align-self-end">
+      <div id="side-nav">
+          <a href="index.html"><img class="logo" src="assets/coco-logo.png" alt="logo"></a>
+        <a href="projects.html">projects</a>
+        <a href="blog.html">blog</a>
+        <a href="about.html">about</a>
+      </div>
+      <div id="main">
+          <div class="main-hi">Hi</div>
+            <video class="main-video" autoplay loop>
+            <source src="assets/segment.mp4" type="video/mp4">
+            <!-- <source src="movie.ogg" type="video/ogg"> -->
+            Your browser does not support the video tag.
+            </video>
           <div class="main-content">
-            <p>I am Melanie</p>
+            <h1>I'm Melanie</h1>
             <p>I am a creative coder, designer and developer.
             </p>
           </div>
-        </div>
-
-
-
+        <!-- end main content -->
+      </div>
+      <div id="footer">
+        <footer>
+          <ul>
+            <li><a href="https://www.linkedin.com/in/melaniewe/" target="_blank"><img src="assets/linkedin-in.svg" class="social-media" alt="Melanie Wilson LinkedIn"> </a></li>
+            <li><a href="https://www.instagram.com/melanie_mmarie/" target="_blank"><img src="assets/instagram.svg" class="social-media" alt="Melanie Wilson Instagram"> </a></li>
+          </ul>
+        </footer>
       </div>
     </div>
-    <!-- end top main content -->
 
-    <!-- work section -->
-    <div class="bg-stretch">
-      <div class="container section-middle row">
-        <div class="card section-cards mr-2">
-            <img class="card-img-top img-fluid" src="images/tr.png" alt="Card image cap">
-            <div class="card-body">
-                <h4 class="card-title">Transfiguration Radio</h4>
-                <p class="card-text">Transfiguration is a internet radio show who was in need of landing page.</p>
-                <p class="card-text"><small class="text-muted"><a href="https://www.transfigurationradio.com">Transfiguration Radio</a>
-                </small></p>
-            </div>
-        </div>
-
-        <div class="card section-cards mr-2">
-            <img class="card-img-top img-fluid" src="images/GD.png" alt="Card image cap">
-            <div class="card-body">
-                <h4 class="card-title">Gently Disappear</h4>
-                <p class="card-thext">Gently Disappear is a vintage and resale clothing and goods shop. They wanted a easy way to update their shop yet. This page was made with Squarespace.</p>
-                <p class="card-text"><small class="text-muted"><a href="https://www.gentlydisappear.com/">Gently Disappear</a></small></p>
-            </div>
-        </div>
-
-        <div class="card section-cards mr-2">
-            <img class="card-img-top img-fluid" src="images/contact.png" alt="Card image cap">
-            <div class="card-body">
-                <h4 class="card-title">Contact Records</h4>
-                <p class="card-text">Contact Records is a record store in Oakland, CA. With the pandemic causing small business to shut down, Contact records wanted to carry their following over to the web. This site is still being developed.</p>
-                <p class="card-text"><small class="text-muted">Not available currently</small></p>
-            </div>
-        </div>
-
-        <div class="card section-cards mr-2">
-            <img class="card-img-top img-fluid" src="images/brand-x.png" alt="Card image cap">
-            <div class="card-body">
-                <h4 class="card-title">IDEO Academy</h4>
-                <p class="card-text">IDEO's Academy was in need of showcasing their newest offering. This was a site to show the newest approach for IDEO Academy which will be released later in the year.</p>
-                <p class="card-text"><small class="text-muted">Not released just yet</small></p>
-            </div>
-        </div>
-      </div>
-    </div>
-    <!-- end work section -->
-  <!-- start footer -->
-  <footer class="container">
-    <div class="col-md-12 py-5 footer-text text-center">© 2020 Copyright - Melanie Wilson</div>
-    </div>
-  </footer>
-  <!-- end footer -->
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </body>
-
 </html>

@@ -1,77 +1,45 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
+    <title>about - mixed salads</title>
+    <link rel="stylesheet" href="css/main.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- CSS -->
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/main.css">
     <!-- fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-    <title>Mixed Salads</title>
   </head>
   <body>
-    <header>
-      <nav class="navbar sticky-top">
-        <!-- start left side nav items -->
-        <div class="d-flex flex-row navbar-expand-md">
-          <ul class="navbar-nav">
-            <li class="nav-item active p-2" id="nav-items">
-              <a class="nav-link" href="livecoding.html">Livecoding<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item p-2" id="nav-items">
-              <a class="nav-link" href="about.html">About</a>
-            </li>
-          </ul>
-        </div>
-        <!-- end left side nav items -->
-        <!-- start center logo -->
-        <div class="navbar-expand-md  justify-content-center">
-            <a href="index.html"><img src="images/coco-logo.png" alt="melanie wilson logo" width="89px" height="55px"></a>
-        </div>
-        <!-- end center logo -->
-        <!-- start right nav-->
-        <div class="navbar-expand-md justify-content-end">
-          <ul class="navbar-nav">
-            <li class="nav-item p-2" id="nav-items">
-              <a class="nav-link p-2" target="_blank" href="https://www.linkedin.com/in/melaniewe/">
-                <img class="smedia" src="images/linkedin-in.svg" alt="Melanie Wilson's LinkedIn">
-              </a>
-            </li>
-            <li class="nav-item p-2" id="nav-items">
-              <a class="nav-link" target="_blank" href="https://instagram.com/melanie_mmarie">
-                <img class="smedia" src="images/instagram.svg" alt="Melanie Wilson's Instagram">
-              </a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-      <!-- end nav -->
-    </header>
-    <!-- main content -->
-    <div class="container-fluid main d-flex row col-sm-12 col-md-12 col-lg-12">
-      <div class="d-flex row about">
-        <img class="about-photo" src="images/melanie.jpg" alt="Melanie Wilson">
-      <div class="about-content">
-        <p>I am a creative coder and developer
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-        </p>
+    <div class="container">
+      <div id="side-nav">
+        <a href="index.html"><img class="logo" src="assets/coco-logo.png" alt="logo"></a>
+        <a href="projects.html">projects</a>
+        <a href="blog.html">blog</a>
+        <a href="about.html">about</a>
       </div>
+      <!-- main - about -->
+      <div id="main-about">
+        <div class="about-bio">
+          <img class="bio-image" src="assets/melanie.jpg" alt="bio photo of melanie wilson">
+        </div>
+        <div class="about-content-box">
+          <p>Development</p>
+          <p>I have been making web pages since the early 2000's before CSS became popular and a standard. </p>
+          <p>Visuals</p>
+          <p>Past shows</p>
+        </div>
+      </div>
+      <div id="footer">
+        <footer>
+          <ul>
+            <li><a href="https://www.linkedin.com/in/melaniewe/" target="_blank"><img src="assets/linkedin-in.svg" class="social-media" alt="Melanie Wilson LinkedIn"> </a></li>
+            <li><a href="https://www.instagram.com/melanie_mmarie/" target="_blank"><img src="assets/instagram.svg" class="social-media" alt="Melanie Wilson Instagram"> </a></li>
+          </ul>
+        </footer>
       </div>
     </div>
-    <!-- end main content -->
 
-  <!-- start footer -->
-  <footer class="container">
-    <div class="col-md-12 py-5 footer-text text-center">© 2020 Copyright - Melanie Wilson</div>
-  </footer>
-  <!-- end footer -->
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
 </html>
