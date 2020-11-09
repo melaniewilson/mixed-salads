@@ -1,7 +1,6 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
 }
 
 body {
@@ -13,7 +12,6 @@ header {
   height: 82px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
 }
 
 /* nav */
@@ -29,7 +27,7 @@ nav {
 }
 
 #nav-items {
-  display: flex;
+  display: flex;z
   justify-content: space-between;
   font-size: 16px;
   padding-left: 80px;
@@ -50,54 +48,73 @@ nav a:hover {
  }
 /* end nav */
 
-/* main section - index */
+/* top main section - index */
 .main {
   margin-top: 100px;
   margin-bottom: 100px;
   padding-bottom: 40px;
   padding-top: 40px;
-  justify-content: center;
-  align-items: center;
   width: 100%;
+  height: auto;
   margin: 0 auto;
 }
 
-.main-text {
-  vertical-align: top;
-  color: pink;
+.circle {
+  background: #ffc2cc;
+  width: 15vw;
+  height: 15vw;
+  border-radius: 50%;
   position: relative;
-  text-align: center;
+
+}
+
+.hi {
+  color: white;
   font-weight: bold;
-  font-size: 260px;
-  width: 320px;
+  font-size: 100px;
   line-height: 180px;
   height: 196px;
-  z-index: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
 }
 
 /* main video for index */
 
 .main-video {
   margin-top: 0;
-  margin-right: -120px;
-  margin-left: -200px;
+  /* margin-right: -120px;
+  margin-left: -200px; */
   width: 500px;
-  height: auto;
+  height: 250px;
   margin-bottom: 0;
-  /* padding: 0 ! important; */
+  padding: 0 ! important;
+}
+
+.intro-box {
+  align-content: flex-end;
+  background: rgba(0, 0, 0, 0.85);
+  width: 140px;
+  height: 130px;
 }
 
 .main-content {
-  background: rgba(0, 0, 0, 0.85);
   font-weight: lighter;
-  vertical-align: top;
-  position: relative;
-  text-align: left;
-  font-size: 12px;
-  width: 320px;
-  height: 196px;
-  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  height: 150px;
+  padding: 10px;
   color: #fff;
+}
+
+.box {
+  background: #ffc2cc;
+  align-content: flex-end;
+  background: rgba(0, 0, 0, 0.85);
+  width: 140px;
+  height: 80px;
 }
 /* end main  */
 
@@ -203,4 +220,20 @@ nav a:hover {
     font-size: 16px;
     padding-left: 80px;
   }
+}
+
+@media (max-width: 767px) {
+    .card {
+        width: 100%;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .card {
+        width: 50%;
+    }
+}
+/* @media (min-width: 1025px) {
+    .cards {
+        width: 25%;
+    } */
 }
